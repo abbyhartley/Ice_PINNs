@@ -7,3 +7,5 @@ Optional: Convert these gpkgs to gpqs using gpkg_to_gpq.py to speed up data load
 IceSAT-2 data download: See icesat2_download.py to extract relevant IceSAT-2 data using Earthaccess and save it as one combined gpq. You may also reference [Michael Shahin's Github](https://github.com/shahinmg/icesat_2_viscosity) for documentation of this data downloading process.
 
 Bedmap/IceSAT-2 comparison & calibration: IS2_BM_comp.py loads in IceSAT-2 and Bedmap data, converts IceSAT-2 heights to thicknesses using Eqn (1) from Chartrand+23, then calibrates IceSAT-2 thicknesses to the Bedmap dataset by optimizing the firn-air column thickness and density parameters and saves the new IceSAT-2 data as a gpq.
+
+PINN training and animations: See pinn_iso_training_animations.py to train the neural network and create animations of viscosity, e1, e2.
